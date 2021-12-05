@@ -1,0 +1,28 @@
+/* 
+*{
+    background-color: #DBEAFE;
+} */
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 99.9vw 40vh;
+    background-color:#DBEAFE;
+}
+.card{
+    margin: 15vh auto;
+    height: 70vh;
+    width: 350px;
+    background-color: white;
+    /* border: 1px solid red;*/
+    border-radius: 20px 20px 0 0; 
+}
+img{
+    max-width: 350px;
+    max-height: 300px;
+    border-radius: 20px 20px 0 0;
+    
+}
+section{
+    background-image: url(./images/illustration-hero.svg);
+    background-size: cover;
+}
