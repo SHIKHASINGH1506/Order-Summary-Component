@@ -1,19 +1,27 @@
 :root{
     --text-color: rgb(145, 141, 141);
+    --dark-blue: hsl(223, 47%, 23%);
+    --destaurted-blue:  hsl(224, 23%, 55%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
 }
 body{
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 99.9vw 40vh;
     background-color:#DBEAFE;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .card{
-    margin: 15vh auto;
+    margin: 8vh auto;
     height: 80vh;
     width: 350px;
     background-color: white;
-    /* border: 1px solid red;*/
     border-radius: 20px 20px 0 0; 
+}
+.container{
+    padding: 0.5em 1.5em 0.5em 1.5em;
 }
 img{
     max-width: 350px;
@@ -21,7 +29,7 @@ img{
     border-radius: 20px 20px 0 0;   
 }
 .plain-section{
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    /* padding: 0.5em 1.5em 0.5em 1.5em; */
 }
 section h1{
     text-align: center;
@@ -31,19 +39,35 @@ section p{
     color: var(--text-color);
 }
 section a{
-    color: rgb(26, 26, 206);
+    color: var(--bright-blue);
     float: right;
     padding: 12px 0;
 }
 .off-white{
-    margin-left: 25px;
-    margin-right: 25px;
     border-radius: 10px;
     background-color: rgb(245, 238, 238); 
-    padding: 0.5em 0.8em 0.5em 0.8em;
+    padding: 0.5em 0.8em 0.5em 0.8em; 
 }
 .music-img{
     max-width: 50px;
     max-height: 50px;
-    vertical-align: top;
+    vertical-align: middle;
+}
+.primary-btn{
+    padding: 0.8em 6.7em;
+    max-width: 300px;
+    margin-top: 2em;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bright-blue);
+    color: var(--pale-blue);
+}
+.secondary-link{
+   text-align: center;
+   margin-top: 0.5em;
+   
+}
+.secondary-link a{
+    color: var(--text-color);
+    text-decoration: none;
 }
