@@ -82,3 +82,8 @@ section a:hover{
 .secondary-link a:hover{
     color: black;
 }
+@media(max-height: 760px){
+    .card{
+        max-height: 400px;
+    }
+}
