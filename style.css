@@ -84,6 +84,6 @@ section a:hover{
 }
 @media(max-width: 320px){
     .card{
-        max-height: 400px;
+        max-height: 500px;
     }
 }
