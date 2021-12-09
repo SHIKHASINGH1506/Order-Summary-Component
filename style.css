@@ -15,7 +15,7 @@ body{
 }
 .card{
     margin: 8vh auto;
-    height: 80vh;
+    max-height: 500px;
     width: 350px;
     background-color: white;
     border-radius: 20px; 
@@ -82,7 +82,7 @@ section a:hover{
 .secondary-link a:hover{
     color: black;
 }
-@media(max-height: 760px){
+@media(max-width: 320px){
     .card{
         max-height: 400px;
     }
